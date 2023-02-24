@@ -9,14 +9,14 @@ function HogItem (hog) {
 
     return (
 
-        <div>
+        <div className='pigTile'>
             <h3>{hog.name}</h3>
             <p>Specialty: {hog.specialty}</p>
             <p>Weight: {hog.weight}</p>
             <p>Greased: {hog.greased}</p>
             <p></p>
             <img src={hog.image} />
-
+            
 
 
 

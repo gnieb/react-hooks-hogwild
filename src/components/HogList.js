@@ -1,5 +1,6 @@
 import React from "react";
 import HogItem from "./HogItem";
+import hogs from "../porkers_data.js"
 
 
 function HogList () {
@@ -7,7 +8,11 @@ function HogList () {
 
 
 return (
-    < HogItem />
+    <div>
+        {hogs.map((hog) => {
+        <HogItem name={hog.name} specialty={hog.specialty} weight={hog.weight} greased={hog.greased} image={hog.image}/>
+    })}
+    </div>
 )
 
 
