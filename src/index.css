@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: gray;
 }
 
 .App {
@@ -19,7 +20,7 @@ body {
 }
 
 .navWrapper {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 .filterWrapper {
